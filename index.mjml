@@ -1,43 +1,128 @@
 <mjml>
   <mj-head>
+  <mj-font name="Parmanent" href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap"/>
     <mj-title>Dentist</mj-title>
     <mj-attributes>
       <mj-text font-family="Lato, montserrat, times new roman" padding="0" color="#353637"/>
-      <mj-section padding="0"/>
+      <mj-section padding="0" background-color="#fff"/>
       <mj-image padding="0"/>
       <mj-class name="heading" font-size="40px" text-transform="capitalize" align="center" />
-      <mj-class name="subHeading" font-size="26px"/>
+      <mj-class name="subHeading" font-size="20px" font-weight="bold" text-transform="uppercase" align="center"/>
+      <mj-button background-color="#2F2F2F" color="#fff" text-transform="uppercase"/>
     </mj-attributes>
   </mj-head>
 
   <mj-body background-color="#F9F9F9">
   <!-- Logo -->
     <mj-section background-color="#5D77A9">
-      <mj-column width="40px">
-        <mj-text align="center" padding-top="20px" padding-bottom="30px">
-          <img src="img/icons8-tooth-64.png" alt="Tooth icon" width="40px"/>
-        </mj-text>
-      </mj-column>
-      <mj-column width="80px">
-        <mj-text align="center" padding-top="30px" font-weight="bold" color="#A1AABC">
-          <span style="font-size: 24px; padding-bottom: 20%">Dentist</span>
-        </mj-text>
+      <mj-column>
+        <mj-table padding="10px">
+          <tr>
+            <td align="right" style="padding-left: 20px"><img src="https://i.ibb.co/DMr0jfv/icons8-tooth-64.png" alt="Tooth icon" width="40px"/></td>
+            <td align="left" style="color: #A1AABC; font-size: 24px; font-weight: bold">Dentist</td>
+          </tr>
+          </tr>
+        </mj-table>
       </mj-column>
     </mj-section>
 
     <!-- Hero -->
     <mj-section background-color="#CBD9EF" padding-bottom="60px">
       <mj-column>
-        <mj-image src="img/check.png" alt="Tick icon" width="100px" padding-top="80px"/>
+        <mj-image src="https://i.ibb.co/x37NSVb/check.png" alt="Tick icon" width="100px" padding-top="80px"/>
         <mj-text mj-class="heading" padding-top="30px">
           <p>payment recived</p>
         </mj-text>
-        <mj-text align="center">
+        <mj-text align="center" padding-top="20px" padding-right="40px" padding-left="40px">
           <p>Hi <strong><u>Morise Baba.</u></strong></p>
           <br>
           <p>Thank you for the payment of <strong>$200.00</strong> on <strong>December 20, 2022</strong></p>
           <p><strong>Bank Account 12345678</strong></p>
         </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Payment Details -->
+    <mj-section padding-top="50px" background-color="#fff">
+      <mj-column>
+        <mj-text mj-class="subHeading">
+          <p>payment details</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding="10px 0px 20px 0">
+      <mj-column width="40%">
+       <mj-table>
+        <tr>
+          <td style="color: #5D77A9; text-align: center">Amount</td>
+          <td>$200.00</td>
+        </tr>
+        <tr>
+          <td style="color: #5D77A9; text-align: center">Date</td>
+          <td>$200.00</td>
+        </tr>
+        <tr>
+          <td style="color: #5D77A9; text-align: center">Method</td>
+          <td>$200.00</td>
+        </tr>
+        <tr>
+          <td style="color: #5D77A9; text-align: center">Confirmation</td>
+          <td>$200.00</td>
+        </tr>
+       </mj-table>
+      </mj-column>
+    </mj-section>
+
+    <!-- Offer -->
+    <mj-section>
+      <mj-column>
+        <mj-raw>
+          <img src="https://i.ibb.co/vPwcMkX/ozkan-guner-a-Fq-SRokmw2-E-unsplash.jpg" alt="Dentist office" width="100%"/>
+        </mj-raw>
+      </mj-column>
+      <mj-column background-color="#FAE890">
+        <mj-text mj-class="heading" font-family="Parmanent, marker felt" padding-top="13.6px">
+          <p>20% off</p>
+        </mj-text>
+        <mj-text align="center" text-transform="uppercase">
+          <p>your next appointment</p>
+          <p style="font-style: italic"><strong>( use code: dentist20 )</strong></p>
+        </mj-text>
+        <mj-button>
+          make an appointment
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- Footer -->
+    <mj-section background-color="#5D77A9" padding-bottom="50px">
+      <mj-column width="40px">
+        <mj-text align="center" padding-top="30px">
+          <img src="https://i.ibb.co/DMr0jfv/icons8-tooth-64.png" alt="Tooth icon" width="40px"/>
+        </mj-text>
+      </mj-column>
+       <mj-column width="80px">
+        <mj-text align="center" padding-top="40px" font-weight="bold" color="#A1AABC">
+          <span style="font-size: 24px">Dentist</span>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#5D77A9">
+      <mj-column>
+        <mj-text align="center">
+          <img src="https://i.ibb.co/JsfQY0G/14606.png" alt="Facebook" width="15px" style="padding-right: 10px"/>
+          <img src="https://i.ibb.co/LNPLC3p/Twitter-Shadow.png" alt="Twitter" width="25px" style="padding-right: 10px"/>
+          <img src="https://i.ibb.co/mvxS7bK/Instagram-Shadow.png" alt="Instagram" width="25px" style="padding-right: 10px"/>
+        </mj-text>
+        <mj-text align="center" padding-top="10px" color="#fff">
+          <p>Mango Str 30, 556677 Sun City</p>
+          <p>info@dentist.com</p>
+          <p>Tel 223 445 667</p>
+          <p style="padding-top: 30px">2023 ©All Rights Resrved</p>
+        </mj-text>
+        <mj-divider border-width="20px" border-color="#fff" border-style="solid" padding-bottom="0"/>
       </mj-column>
     </mj-section>
   </mj-body>
