@@ -36,7 +36,7 @@
         <mj-text align="center" padding-top="20px" padding-right="40px" padding-left="40px">
           <p>Hi <strong><u>Morise Baba.</u></strong></p>
           <br>
-          <p>Thank you for the payment of <strong>$200.00</strong> on <strong>December 20, 2022</strong></p>
+          <p style="line-height: 22px">Thank you for the payment of <strong>$200.00</strong> on <strong>December 20, 2022</strong></p>
           <p><strong>Bank Account 12345678</strong></p>
         </mj-text>
       </mj-column>
@@ -97,15 +97,13 @@
 
     <!-- Footer -->
     <mj-section background-color="#5D77A9" padding-bottom="50px">
-      <mj-column width="40px">
-        <mj-text align="center" padding-top="30px">
-          <img src="https://i.ibb.co/DMr0jfv/icons8-tooth-64.png" alt="Tooth icon" width="40px"/>
-        </mj-text>
-      </mj-column>
-       <mj-column width="80px">
-        <mj-text align="center" padding-top="40px" font-weight="bold" color="#A1AABC">
-          <span style="font-size: 24px">Dentist</span>
-        </mj-text>
+      <mj-column>
+        <mj-table padding-top="30px">
+          <tr>
+            <td align="right" style="padding-left: 25px"><img src="https://i.ibb.co/DMr0jfv/icons8-tooth-64.png" alt="Tooth icon" width="40px"/></td>
+            <td style="padding-right: 25px; color: #A1AABC; font-size: 24px; font-weight: bold">Dentist</td>
+          </tr>
+        </mj-table>
       </mj-column>
     </mj-section>
 
